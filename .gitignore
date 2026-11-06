@@ -1,0 +1,26 @@
+# Local-only configuration and OAuth artifacts
+config.local.json
+dida_creds.json
+scripts/dida_creds.json
+auth_debug.log
+scripts/auth_debug.log
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build and virtual environments
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
